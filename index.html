@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Card</title>
+    <!-- This line links your HTML file to your CSS styling file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hidden Checkbox for Dark/Light Mode Toggle -->
+    <input type="checkbox" id="theme-toggle" class="toggle-checkbox">
+
+    <div class="profile-card">
+        
+        <!-- Theme Toggle Switch Button -->
+        <label for="theme-toggle" class="theme-switch" title="Toggle Theme">
+            <span class="icon">☀️/🌙</span>
+        </label>
+
+        <!-- Profile Header & Avatar -->
+        <div class="profile-header">
+            <div class="avatar-container">
+                <!-- Replace 'photo.jpg' with your image file name -->
+                <img src="photo.jpg" alt="Profile Picture" class="avatar">
+                <span class="status-dot"></span>
+            </div>
+        </div>
+
+        <!-- Personal Info -->
+        <div class="profile-info">
+            <h1>Alex Morgan</h1>
+            <p class="title">Software Engineer & Creator</p>
+            <p class="bio">Building clean interfaces, exploring modern systems architecture, and turning complex logic into smooth experiences.</p>
+        </div>
+
+        <!-- Quick Stats -->
+        <div class="profile-stats">
+            <div class="stat-item">
+                <span class="stat-value">34</span>
+                <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">1.2k</span>
+                <span class="stat-label">Followers</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">4 yrs</span>
+                <span class="stat-label">Exp</span>
+            </div>
+        </div>
+
+        <!-- Action Button -->
+        <div class="profile-actions">
+            <a href="https://github.com" target="_blank" class="btn primary-btn">View GitHub Repository</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
